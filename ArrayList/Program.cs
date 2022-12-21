@@ -15,13 +15,8 @@ namespace ArrayList_Exercise
 
             cuvinte.Sort();
 
-            Queue<string> cuvinteCoada = new Queue<string>();
+            Console.WriteLine("ArrayList-ul contine elemente:");
 
-            foreach (var cuvant in cuvinte)
-            {
-                cuvinteCoada.Enqueue(cuvant.ToString());
-            }
-            Console.WriteLine("Coada contine: ");
             foreach (var cuvant in cuvinte)
             {
                 Console.WriteLine(cuvant.ToString());
